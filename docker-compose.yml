@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  hexo:
+    image: taskbjorn/hexo
+    container_name: hexo-blog
+    network_mode: bridge
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./:/home/hexo/.hexo
+      - ./entrypoint.sh:/home/hexo/.docker/hexo.sh:ro
+    restart: unless-stopped
