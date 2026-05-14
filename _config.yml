@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Hexo Blog
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: A股趋势交易日志
+subtitle: '量价分析 · 均线系统 · 中长期趋势'
+description: 'A股中长期趋势交易每日推演与复盘。覆盖贵州茅台、宁德时代、比亚迪等核心持仓的技术分析、操作策略与反思。'
+keywords: A股,趋势交易,技术分析,均线,MACD,RSI,量价分析,茅台,宁德时代,比亚迪
+author: Trend Master
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://localhost:4000
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
